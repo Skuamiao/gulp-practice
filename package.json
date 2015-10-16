@@ -1,0 +1,29 @@
+{
+  "name": "gulp-practice",
+  "version": "0.0.1",
+  "description": "gulp practice",
+  "main": "index.js",
+  "bin": {
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rong8296-practice/gulp-practice.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "sadhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rong8296-practice/gulp-practice/issues"
+  },
+  "homepage": "https://github.com/rong8296-practice/gulp-practice#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
