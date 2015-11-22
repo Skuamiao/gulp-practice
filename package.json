@@ -7,7 +7,7 @@
     "gulp": "./node_modules/.bin/gulp"
   },
   "scripts": {
-    "gulp": "gulp",
+    "gulp-less": "gulp demo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/rong8296-practice/gulp-practice#readme",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5"
   }
 }
