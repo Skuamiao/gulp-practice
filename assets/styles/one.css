@@ -254,8 +254,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../../fonts/glyphicons-halflings-regular.eot');
-  src: url('../../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -6796,26 +6796,6 @@ button.close {
     padding: 20px 0;
   }
 }
-.i-form input#verification {
-  width: 60%;
-}
-.i-form img.verification {
-  height: 46px;
-  width: 40%;
-  padding-left: 15px;
-}
-.i-form .i-tip,
-.i-form .i-icon {
-  display: none;
-}
-.i-form .i-tip {
-  margin-top: 5px;
-  margin-bottom: 0;
-}
-.i-form .has-error .i-tip,
-.i-form .has-error .i-icon {
-  display: block;
-}
-.i-form .has-error .verification-mark {
-  right: 40%;
+.glyphicon-minus {
+  color: green;
 }
